@@ -1,0 +1,31 @@
+taskmanager_project/
+├── manage.py
+├── taskmanager_project/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── tasks/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── urls.py
+│   ├── views.py
+│   └── templates/
+│       ├── base.html
+│       ├── register.html
+│       ├── dashboard.html
+│       ├── task_list.html
+│       └── registration/
+│           ├── login.html
+│           ├── logout.html
+│           ├── password_reset_form.html
+│           ├── password_reset_done.html
+│           ├── password_reset_confirm.html
+│           ├── password_reset_complete.html
+├── db.sqlite3 (auto-generated)
+├── .gitignore
+├── requirements.txt
